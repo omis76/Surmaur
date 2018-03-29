@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context="com.onkar.surmaur.Stay2Activity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Nahan"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:onClick="onBtnClick"
+        android:background="#FFF"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Paonta Sahib"
+        android:onClick="onBtnClick"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Sangarh"
+        android:onClick="onBtnClick"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Shillai"
+        android:onClick="onBtnClick"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Rajgarh"
+        android:onClick="onBtnClick"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:background="#FFF"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/contact_main"
+    tools:context="com.onkar.surmaur.ContactActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:weightSum="8">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:onClick="onAdminClick"
+            android:text="Administration"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="Revenue Officers"
+            android:textAllCaps="false"
+            android:onClick="onRevenueClick"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="Police Helpline"
+            android:textAllCaps="false"
+            android:onClick="onPoliceClick"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="Medical Helpline"
+            android:textAllCaps="false"
+            android:onClick="onMedicalClick"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="Fire Brigade"
+            android:onClick="onFireClick"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#fff"
+            android:text="Filling Stations/Petrol Pumps"
+            android:textAllCaps="false"
+            android:layout_marginBottom="10dp"/>
+    </LinearLayout>
+
+    <include layout="@layout/sheet_contact_admin" />
+    <include layout="@layout/sheet_contact_revenue"/>
+    <include layout="@layout/sheet_contact_police"/>
+    <include layout="@layout/sheet_contact_medical"/>
+    <include layout="@layout/sheet_contact_fire"/>
+
+</android.support.design.widget.CoordinatorLayout>

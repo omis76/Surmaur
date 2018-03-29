@@ -1,0 +1,49 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#26A69A"
+    android:clipToPadding="true"
+    android:padding="16dp"
+    app:behavior_hideable="true"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:text="Fire Brigade"
+            android:textAppearance="?android:textAppearanceLarge" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="#FFF"
+            android:padding="16dp"
+            android:onClick="onFireOfficeClick"
+            android:text="Fire Office: 01702-22500"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:background="#FFF"
+            android:padding="16dp"
+            android:onClick="onFireTollClick"
+            android:text="Toll Free No.: 101"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.onkar.surmaur">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReachActivity"
+            android:label="@string/title_activity_reach"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExcursionsActivity"
+            android:label="@string/title_activity_excursions"
+            android:parentActivityName=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ContactActivity"
+            android:label="Contacts"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".StayActivity"
+            android:label="Where to stay"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".Stay2Activity"
+            android:label="Where to stay"
+            android:parentActivityName=".StayActivity" />
+        <activity
+            android:name=".AdminActivity"
+            android:label="Connect to admin for grievance"
+            android:parentActivityName=".HomeActivity" />
+        <activity
+            android:name=".AdminPanelActivity"
+            android:label="Admin login"
+            android:parentActivityName=".AdminActivity" />
+        <activity
+            android:name=".PublicPanelActivity"
+            android:label="Public panel"
+            android:parentActivityName=".AdminActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AdminMailActivity"
+            android:label="Admin panel"
+            android:parentActivityName=".AdminActivity"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sirmaur</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_reach">How to reach</string>
+    <string name="tab_text_1">By Air</string>
+    <string name="tab_text_2">By Train</string>
+    <string name="tab_text_3">By Road</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_excursions">Excursions</string>
+    <string name="about_data_1">About the origin of the name, “Sirmaur” there are quite a few surmises.  One view being that the state derived its name as Sirmaur because of the   senior position it held amongst the princely hill states. Another version is that at the earliest times the   capital of the state was at Sirmaur and the state was so called after the name of the capital. But, how the word Sirmaur originated is not known. Third version being that the  state was  founded by  Raja  Rasaloo of Jaisalmer whose one of the  ancestor’s  name was Sirmaur and who belonged to Rasaloo family.  Beyond this, nothing definite is traceable.</string>
+    <string name="about_data_2">The legend goes that during the earliest history of Sirmaur State when Raja Madan Singh used to rule, a woman knowing necromancy presented before the Raja and talked about her acrobatic skill.  Raja being susceptible about it, promised her half of his kingdom  if she displayed her skill by crossing over the river Giri by means of acrobatic rope.   To his surprise, she succeeded in crossing and when she was returning on the rope one of the courtiers of the Raja feeling apprehensive, cut the rope and consequently the woman was drowned in the river.  This treachery on the part of Raja resulted in a flood, which swept the town, and the entire princely family perished leaving the state without a ruler.</string>
+    <string name="title_activity_public_panel">PublicPanelActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

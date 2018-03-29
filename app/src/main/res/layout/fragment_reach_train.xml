@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nearest Railway Station"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Sirmaur does not have its own air base, thus if you are planning to access this beautiful place via airways, you have to first fly to Chandigarh airport located at a distance of 113 km. From here you can hire taxi and travel through the roadways to reach to your destination in Sirmaur which takes roughly 2 hours 42 minutes."
+                android:textAppearance="?android:textAppearanceMedium" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

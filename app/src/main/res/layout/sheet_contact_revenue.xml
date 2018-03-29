@@ -1,0 +1,228 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#26A69A"
+    android:clipToPadding="true"
+    android:padding="16dp"
+    app:behavior_hideable="true"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:text="Nahan"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="SDM, Nahan: 01702-222239"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="Tahsildar, Nahan: 01702-222320"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="Tahsildar, Dadahu: 01702-267358"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:text="Paonta Sahib"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="SDM, Paonta Sahib: 01704-224100"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="Tahsildar, Paonta Sahib: 01704-222324"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="Tahsildar, Kamrau: 01702-267358"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:text="Sangarh"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="SDM, Sangarh: 01702-2248004"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:layout_marginBottom="5dp"
+                android:text="Tahsildar, Sangarh: 01702-248137"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="Tahsildar, Nohardhar: 01702-240679"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:text="Shillai"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="SDM, Shillai: 01704-278601"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:layout_marginBottom="5dp"
+                android:text="Tahsildar, Shillai: 01704-278534"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="Sub-Tahsildar, Rohnat: 01704-276503"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:text="Rajgarh"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5dp"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="SDM, Rajgarh: 01799-221034"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:layout_marginBottom="5dp"
+                android:padding="16dp"
+                android:text="Tahsildar, Rajgarh: 01799-221128"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFF"
+                android:padding="16dp"
+                android:text="Tahsildar, Pachhad: 01799-236728"
+                android:textAllCaps="false"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

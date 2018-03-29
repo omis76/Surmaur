@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="From Poanta Sahib"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Located at a short distance of 34.9 km from Poanta Sahib, you can comfortably and easily get to Sirmaur via well laid roadways. First you have to head west to Court Road, then via Ambala-Paonta Sahib-Dehradun Rd drive towards NH72. Continue driving onto NH72 till you get to tour destination in Sirmaur"
+                        android:textAppearance="?android:textAppearanceMedium" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="From Kasauli"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Reaching Sirmaur from Kasauli will require you to cover a total distance of 109 km approximately. It is a fabulous journey of around 2 hours 56 minutes through the pristine serenity and amidst the picturesque countryside beauty. At the onset of your journey you have to take MDR10 to NH22 in Dharampur. Then slope down along the SH 2 to Sangrah - Renukaji - Nahan Rd in Chabahan to get to your destination in Sirmaur."
+                        android:textAppearance="?android:textAppearanceMedium" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fff"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="From Chail"
+                        android:textAppearance="?android:textAppearanceLarge" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Sirmaur is set approximately 139 km apart from Chail and can be easily accessed roughly in 3 hours 23 minutes. All you need to is to take Bhajun Rd to SH 6 in Yashwant Nagar. Then take MDR3 to Sangrah - Renukaji - Nahan Rd in Sangrah. Continue driving onto Sangrah - Renukaji - Nahan Rd to your destination in Sirmaur. Surely, throughout the journey you won’t feel drowsy as the entire routes leading to Simraur from Chail is dotted with scenic beauty and some wonderful landscapes."
+                        android:textAppearance="?android:textAppearanceMedium" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

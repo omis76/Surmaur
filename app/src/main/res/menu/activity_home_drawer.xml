@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about_black_24dp"
+            android:title="About"/>
+        <item
+            android:id="@+id/nav_reach"
+            android:icon="@drawable/ic_reach_walk_black_24dp"
+            android:title="How to reach" />
+        <item
+            android:id="@+id/nav_stay"
+            android:icon="@drawable/ic_stay_black_24dp"
+            android:title="Where to stay" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_contacts_black_24dp"
+            android:title="Important Contacts"/>
+        <item
+            android:id="@+id/nav_excur"
+            android:icon="@drawable/ic_excursion_black_24dp"
+            android:title="Excursions" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_admin_black_24dp"
+            android:title="Connect to admin for Grievance"/>
+        <item
+            android:id="@+id/nav_link"
+            android:icon="@drawable/ic_link_black_24dp"
+            android:title="Important links"/>
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="Messages from DC, Sirmaur"/>
+    </group>
+
+</menu>
