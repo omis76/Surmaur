@@ -36,7 +36,7 @@
                 android:id="@+id/tabItem"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Relgious/Pilgrimage" />
+                android:text="Religious/Pilgrimage" />
 
             <android.support.design.widget.TabItem
                 android:id="@+id/tabItem2"

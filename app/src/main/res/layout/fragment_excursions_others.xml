@@ -17,6 +17,7 @@
             android:background="#fff"
             android:padding="16dp"
             android:text="Renuka Ji"
+            android:onClick="onOtherOneClick"
             android:textAppearance="?android:textAppearanceMedium" />
 
         <TextView
@@ -25,6 +26,7 @@
             android:layout_marginTop="5dp"
             android:background="#fff"
             android:padding="16dp"
+            android:onClick="onOtherTwoClick"
             android:text="Churdhar Track"
             android:textAppearance="?android:textAppearanceMedium" />
 
@@ -34,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#fff"
+            android:onClick="onOtherThreeClick"
             android:padding="16dp"
             android:text="Shivalik Fossil Park, Suketi"
             android:textAppearance="?android:textAppearanceMedium" />
@@ -44,6 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#fff"
+            android:onClick="onOtherFourClick"
             android:padding="16dp"
             android:text="Jaitak Fort"
             android:textAppearance="?android:textAppearanceMedium" />

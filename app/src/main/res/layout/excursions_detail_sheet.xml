@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ex_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/sirmour_1" />
+
+    <TextView
+        android:id="@+id/text_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Renuka is another place of religious and tourist interest in Sirmaur. It is nearly 40 kilometres (25 mi) from Nahan via a motorable metalled road. Boating is available for visitors at Renuka Lake, an oval-shaped lake with a circumference of 2.4 kilometres (1.5 mi). The lake is visited by thousands of pilgrims every year on Kartiki Ekadashi. There is a 1.6 kilometres (0.99 mi) patch between the Giri and humming camp where visitors often stay for a couple of days. Nightlong festivities including Kirtans are held by various groups. The place reaches full capacity during the days of the fair and offers a variety of activities. At the entrance to the fairground there is a notice board put up by the Wild Life Wing of the Forest Department warning, &quot;Hold Your Gun-- Game Sanctuary Starts&quot;. To this fair, the brass idol of Parasu Rama is brought from the village Jamu, his permanent abode, in a silver palki accompanied by musical instruments. The deity remains in the temple for three days i.e. sudi, dashmi to dwadashi (from 10th to 12th of the bright half). The hill people pray to pujari with questions during the night when he goes into a trance and turns into an oracle, answering questions and sometimes asking of the questioner some offering or sacrifice to the deity of some other act as a condition precedent to the fulfillment of the favourable prophecy, such as deliverance from a problem or recovery of health from some disease. On Dwadashi, generally, the people offer alms after the holy dip in the Renuka lake."
+        android:textAppearance="?android:textAppearanceMedium" />
+</LinearLayout>

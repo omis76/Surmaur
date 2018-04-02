@@ -69,6 +69,10 @@ public class ReachActivity extends AppCompatActivity {
                                         Uri.parse("http://maps.google.com/maps?saddr=" + location.getLatitude()+ "," + location.getLongitude()+ "&daddr=30.564,77.267"));
                                 startActivity(intent);
                             }
+                            else {
+                                Snackbar snackbar = Snackbar.make(findViewById(R.id.main_content), "Please enable GPS.", Snackbar.LENGTH_LONG);
+                                snackbar.show();
+                            }
                         }
                     });
         }

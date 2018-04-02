@@ -17,6 +17,7 @@
             android:layout_height="wrap_content"
             android:background="#fff"
             android:padding="16dp"
+            android:onClick="onRelOneClick"
             android:text="Gurudwara Shri Paonta Sahib ji"
             android:textAppearance="?android:textAppearanceMedium" />
 
@@ -26,6 +27,7 @@
             android:layout_marginTop="5dp"
             android:background="#fff"
             android:padding="16dp"
+            android:onClick="onRelTwoClick"
             android:text="Mahamaya Balasundari Temple Trilokpur"
             android:textAppearance="?android:textAppearanceMedium" />
 
@@ -36,6 +38,7 @@
             android:layout_marginTop="5dp"
             android:background="#fff"
             android:padding="16dp"
+            android:onClick="onRelThreeClick"
             android:text="Maa Bhagyani Temple, Haripurdhar"
             android:textAppearance="?android:textAppearanceMedium" />
 
@@ -45,6 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#fff"
+            android:onClick="onRelFourClick"
             android:padding="16dp"
             android:text="Chudeshwar Temple, Churdhar"
             android:textAppearance="?android:textAppearanceMedium" />
@@ -55,6 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:background="#fff"
+            android:onClick="onRelFiveClick"
             android:padding="16dp"
             android:text="Paudiwala Swarg ki dusri sidhi Temple, Sainwala Nahan"
             android:textAppearance="?android:textAppearanceMedium" />
@@ -66,6 +71,7 @@
             android:layout_marginTop="5dp"
             android:background="#fff"
             android:padding="16dp"
+            android:onClick="onRelSixClick"
             android:text="Bhureswar Mahadev Temple, Nainatikker"
             android:textAppearance="?android:textAppearanceMedium" />
 
@@ -76,6 +82,7 @@
             android:layout_marginTop="5dp"
             android:background="#fff"
             android:padding="16dp"
+            android:onClick="onRelSevenClick"
             android:text="Shri Renuka Ji Temple, RenukaJi"
             android:textAppearance="?android:textAppearanceMedium" />
     </LinearLayout>
